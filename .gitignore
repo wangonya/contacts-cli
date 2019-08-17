@@ -1,0 +1,11 @@
+env
+.DS_Store
+*.egg-info/
+*.egg
+__pycache__/
+*.py[cod]
+*$py.class
+.coverage
+data.json
+data.csv
+data.db

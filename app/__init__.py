@@ -45,7 +45,7 @@ def view(name):
     response = requests.get('{}/contacts/{}.json'
                             .format(os.getenv('URL'), name))
     if not response.json():
-        click.echo("The contact you searched for does'nt exist")
+        click.echo("The contact you searched for doesn't exist")
     else:
         click.echo(response.json())
 
